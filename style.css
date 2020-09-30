@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("./images/bg2.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    /* border: 10px solid white; */
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    /* background-color: purple; */
+}
+.container h1{
+    font-size: 50px;
+    border-bottom: 5px solid rgb(127, 225, 255);
+    /* text-align: center; */
+    margin-bottom: 33px;
+    padding:15px 0px;
+    display: inline-block;
+}
+.box{
+    font-size: 30px;
+}
+.box input{
+    background: none;
+    width: 70%;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-bottom: 5px solid rgb(127, 225, 255);
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+.box input:hover{
+    transform: 0.5s;
+    background-color: white;
+    color: black;
+}
+#btn{
+    display: block;
+    outline: none;
+    cursor: pointer;
+    /* margin-bottom: 15px; */
+    padding: 6px;
+    border-bottom: 5px solid rgb(127, 225, 255);
+    border-radius: 10px;
+    background:none;
+    color: white;
+    font-size: 35px;
+    margin-top: 15px;
+}
+#btn:hover{
+    background-color: white;
+    border: none;
+    color: black;
+    border-bottom: 5px solid rgb(127, 225, 255);
+}
+@media screen and (max-width: 360){
+    .box input{
+        font-size: 5%;
+    }
+}
